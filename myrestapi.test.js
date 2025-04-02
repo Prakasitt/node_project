@@ -8,6 +8,6 @@ describe('test hr zone calculation', () => {
     expect(restapi.calculateHR(30,180).lb).toBe(171);
   });
   test('test - up hr  is correct?', () => {
-    expect(restapi.calculateHR(30,180).up).toBe(190);
+    expect(restapi.calculateHR(30,180).up).toBe(180);
   });
 });
